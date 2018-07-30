@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="com.dp2"
+		module="assurantbillingreport_2.11"
+		revision="1.0"
+		conf="provided"
+		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
+		date="20180730144210"/>
+	<dependencies>
+		<module organisation="org.jasypt" name="jasypt">
+			<revision name="1.6" status="release" pubdate="20171204124102" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.jasypt.org" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="1">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="9029" time="0" location="C:\Users\girish.prajapati\.ivy2\cache\org.jasypt\jasypt\ivy-1.6.xml" searched="false" origin-is-local="true" origin-location="C:\Users\girish.prajapati\.m2\repository\org\jasypt\jasypt\1.6\jasypt-1.6.pom"/>
+				<caller organisation="com.dp2" name="assurantbillingreport_2.11" conf="provided" rev="1.6" rev-constraint-default="1.6" rev-constraint-dynamic="1.6" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="jasypt" type="jar" ext="jar" status="no" details="" size="131443" time="0" location="C:\Users\girish.prajapati\.m2\repository\org\jasypt\jasypt\1.6\jasypt-1.6.jar">
+						<origin-location is-local="true" location="C:\Users\girish.prajapati\.m2\repository\org\jasypt\jasypt\1.6\jasypt-1.6.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="commons-codec" name="commons-codec">
+			<revision name="1.1" status="release" pubdate="20171204124103" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="3">
+				<metadata-artifact status="no" details="" size="2693" time="0" location="C:\Users\girish.prajapati\.ivy2\cache\commons-codec\commons-codec\ivy-1.1.xml" searched="false" origin-is-local="true" origin-location="C:\Users\girish.prajapati\.m2\repository\commons-codec\commons-codec\1.1\commons-codec-1.1.pom"/>
+				<caller organisation="org.jasypt" name="jasypt" conf="default, compile, runtime, master" rev="1.1" rev-constraint-default="1.1" rev-constraint-dynamic="1.1" callerrev="1.6"/>
+				<artifacts>
+					<artifact name="commons-codec" type="jar" ext="jar" status="no" details="" size="18874" time="0" location="C:\Users\girish.prajapati\.ivy2\cache\commons-codec\commons-codec\jars\commons-codec-1.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/commons-codec/commons-codec/1.1/commons-codec-1.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="commons-lang" name="commons-lang">
+			<revision name="2.1" status="release" pubdate="20170912152202" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://jakarta.apache.org/commons/${pom.artifactId.substring(8)}/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="2">
+				<license name="The Apache Software License, Version 2.0" url="/LICENSE.txt"/>
+				<metadata-artifact status="no" details="" size="2914" time="0" location="C:\Users\girish.prajapati\.ivy2\cache\commons-lang\commons-lang\ivy-2.1.xml" searched="false" origin-is-local="true" origin-location="C:\Users\girish.prajapati\.m2\repository\commons-lang\commons-lang\2.1\commons-lang-2.1.pom"/>
+				<caller organisation="org.jasypt" name="jasypt" conf="default, compile, runtime, master" rev="2.1" rev-constraint-default="2.1" rev-constraint-dynamic="2.1" callerrev="1.6"/>
+				<artifacts>
+					<artifact name="commons-lang" type="jar" ext="jar" status="no" details="" size="207723" time="0" location="C:\Users\girish.prajapati\.m2\repository\commons-lang\commons-lang\2.1\commons-lang-2.1.jar">
+						<origin-location is-local="true" location="C:\Users\girish.prajapati\.m2\repository\commons-lang\commons-lang\2.1\commons-lang-2.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.bouncycastle" name="bcprov-jdk15on">
+			<revision name="1.58" status="release" pubdate="20170823094529" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.bouncycastle.org/java.html" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="0">
+				<license name="Bouncy Castle Licence" url="http://www.bouncycastle.org/licence.html"/>
+				<metadata-artifact status="no" details="" size="2706" time="0" location="C:\Users\girish.prajapati\.ivy2\cache\org.bouncycastle\bcprov-jdk15on\ivy-1.58.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/bouncycastle/bcprov-jdk15on/1.58/bcprov-jdk15on-1.58.pom"/>
+				<caller organisation="com.dp2" name="assurantbillingreport_2.11" conf="provided" rev="1.58" rev-constraint-default="1.58" rev-constraint-dynamic="1.58" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="bcprov-jdk15on" type="jar" ext="jar" status="no" details="" size="3955990" time="0" location="C:\Users\girish.prajapati\.ivy2\cache\org.bouncycastle\bcprov-jdk15on\jars\bcprov-jdk15on-1.58.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/bouncycastle/bcprov-jdk15on/1.58/bcprov-jdk15on-1.58.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>

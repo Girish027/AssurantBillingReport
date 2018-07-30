@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="SBT: com.tfs.dp:spark-avro:promoted:jar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/com.tfs.dp/spark-avro/jars/spark-avro-promoted.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

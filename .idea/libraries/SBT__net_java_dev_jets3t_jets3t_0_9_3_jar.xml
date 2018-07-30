@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="SBT: net.java.dev.jets3t:jets3t:0.9.3:jar">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/net/java/dev/jets3t/jets3t/0.9.3/jets3t-0.9.3.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.ivy2/cache/net.java.dev.jets3t/jets3t/docs/jets3t-0.9.3-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/net.java.dev.jets3t/jets3t/srcs/jets3t-0.9.3-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

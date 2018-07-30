@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="SBT: org.jasypt:jasypt:1.9.2:jar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/org.jasypt/jasypt/jars/jasypt-1.9.2.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.ivy2/cache/org.jasypt/jasypt/docs/jasypt-1.9.2-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/org.jasypt/jasypt/srcs/jasypt-1.9.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
